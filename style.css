@@ -1,13 +1,39 @@
-main {
-  height: 200vh;
+
+body {
+  background-color:hsl(0, 0%, 100%);
+  font-family: "NarrowNews", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* твой код */
+main {
+  height: 100vh; 
+  padding: 10px;
+}
 
+.banner {
+  background-size: contain;
+  height: 100px;
+}
+.navbar {
+  background-color:#666666; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+.navbar a {
+  text-decoration:underline;
+  color: #f4ebeb; 
+  padding: 10px 20px;
+  transition: color 0.3s;
+}
 
-
-
-
+.navbar a:hover {
+  color: #ff6600;
+}
 
 @font-face {
   font-family: "NarrowNews"; 
